@@ -11,6 +11,7 @@ function start(route, handle) {
     }
 
     http.createServer(f).listen(8888);
+	console.log("This is the current version from MacBook");
     console.log("Server has started in port 8888...");
 }
 
